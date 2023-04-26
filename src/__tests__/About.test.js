@@ -26,4 +26,6 @@ test("renders a <p> with the about text", () => {
   const p = screen.queryByText("About this blog");
   expect(p).toBeInTheDocument();
   expect(p.tagName).toBe("P");
-});
+});import React from "react";
+
+
